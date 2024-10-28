@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import { BrowserRouter  as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import About from './components/pages/About';
+import Charity from './components/pages/Charity';
+import Product from './components/pages/Product';
+import Home from './components/pages/Home';
+import ProductDetails from './components/pages/ProductDetails';
+import NewsDetails from './components/pages/NewsDetails';
+import BuyingGuide from './components/pages/BuyingGuide';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+      <Header/>
+
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/charity' element={<Charity/>}/>
+        <Route path='/product' element={<Product/>}/>
+        <Route path='/product-details' element={<ProductDetails/>}/>
+        <Route path='/news-details' element={<NewsDetails/>}/>
+        <Route path='/buying-guide' element={<BuyingGuide/>}/>
+      </Routes>
+
+      <Footer/>
+    </Router>
+    </>
   );
 }
 
