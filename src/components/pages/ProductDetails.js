@@ -1,42 +1,46 @@
-import React from "react";
-import imgProduct from "../../assets/images/image.png";
+import React, { useState } from "react";
+import { Link, useParams } from "react-router-dom";
+
 import BackButton from "../BackButton";
 
-const ProductDetails = () => {
+
+const ProductDetails = ({products, onClose }) => {
+  const [visibleCount, setVisibleCount] = useState(4);
+  const { productId } = useParams();
+  const product = products.find((p) => p.id_product === parseInt(productId, 10));
+
+  if (!products) {
+    return <h1>Không có sản phẩm nào</h1>;
+  }
+  
+  const handleLoadMore = () => {
+    setVisibleCount((prev) => Math.min(prev + 4, products.length));
+  };
+
   return (
     <div className="md:mx-32 md:mt-4 mt-2">
-      <BackButton/>
+      <BackButton onClick={onClose} />
 
       <div className="mt-2 md:mt-7 flex-row md:grid md:grid-cols-3 gap-4">
         <div className="col-start-1">
           <img
-            src={imgProduct}
-            alt=""
+            src={product.image}
+            alt={product.name}
             className="shadow-fm w-[400px] h-72 object-contain"
           />
         </div>
         <div className="mt-4 md:mt-0 md:ml-8 ml-2 col-start-2 col-end-4">
           <div>
-            <h1 className="font-bold text-xl">Carrot</h1>
-            <p className="font-light text-base italic">20.000đ</p>
+            <h1 className="font-bold text-xl">{product.name}</h1>
+            <p className="font-light text-base italic">{product.price}</p>
           </div>
           <div>
             <h1 className="text-lg font-medium mt-8">Storage instructions</h1>
             <span className="italic text-base">
-              Hand-peeled carrots and baby carrots have a higher risk of drying
-              out once their protective outer layer is removed. When storing
-              peeled carrots, you'll need to provide moisture to prevent them
-              from cracking, turning white, and drying out. Using this method,
-              peeled carrots will last up to 3 weeks. Wash carrots with cool
-              water. Add cool water to a dish or airtight container. Add the
-              carrots to the container, making sure they are completely covered
-              with water. If you don't plan to eat the carrots within a few
-              days, you will need to periodically change out the water to
-              inhibit bacterial growth. Rinse the carrots and replace the water
-              every 4–5 days. Just before eating, rinse the carrots again to
-              remove any potential bacterial growth.
+              {product.description}
             </span>
           </div>
+
           <a href="https://zalo.me/pc">
             <button className="bg-secondary-color p-2 mt-4 rounded-[4px] hover:bg-primary-color duration-300">
               Contact us
@@ -44,6 +48,45 @@ const ProductDetails = () => {
           </a>
         </div>
       </div>
+
+      <div>
+        <h1 className="text-xl font-bold mt-12">Other products</h1>
+      </div>
+
+      <div className="mt-8 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 text-black font-bold">
+        {products.slice(0, visibleCount).map((otherProduct) => (
+          <div
+            key={otherProduct.id_product}
+            className="flex-col cursor-pointer hover:scale-105 duration-300"
+          >
+            <Link to={`/product-details/${otherProduct.id_product}`}>
+              <div className="w-full h-32 md:h-60 overflow-hidden mb-2 rounded bg-white shadow-fm">
+                <img
+                  src={otherProduct.image}
+                  alt={otherProduct.name}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </Link>
+            <div>
+              <h3 className="text-xs md:text-base">{otherProduct.name}</h3>
+              <span className="text-xs md:text-base font-light italic">
+                {otherProduct.price}
+              </span>
+            </div>
+          </div>
+        ))}
+      </div>
+      {visibleCount < products.length && (
+        <div className="mt-4 float-end">
+          <button
+            onClick={handleLoadMore}
+            className="text-black font-thin italic text-base "
+          >
+            See more
+          </button>
+        </div>
+      )}
     </div>
   );
 };

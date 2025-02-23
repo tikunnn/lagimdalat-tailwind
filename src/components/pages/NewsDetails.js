@@ -18,7 +18,7 @@ const NewsDetails = () => {
               <p className="font-thin text-sm text-center mt-3">The strawberry garden photo by Nguyen</p>
             </div>
 
-            <div className="mt-4 space-y-4 font-normal">
+            <div className="mt-4 space-y-4 font-normal text-justify">
               <p>
                 Discovered a strawberry garden located in Da Lat. Some people
                 said that this is a strawberry garden that is grown without

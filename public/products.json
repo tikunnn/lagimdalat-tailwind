@@ -1,0 +1,395 @@
+{
+  "categories": [
+    {
+      "id_category": 1,
+      "name": "Vegetable"
+    },
+    {
+      "id_category": 2,
+      "name": "Strawberry"
+    },
+    {
+      "id_category": 3,
+      "name": "Powder"
+    }
+  ],
+
+  "news": [
+    {
+      "id_news": 1,
+      "title": "Title test",
+      "dateTime": "11/12/2024",
+      "image": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros lectus, euismod ut mattis laoreet, ullamcorper nec mauris. Nam efficitur leo vel auctor ullamcorper. Aliquam viverra justo vitae vulputate molestie. Etiam hendrerit consectetur dui id fermentum. Proin consequat lorem est, vitae dictum arcu cursus at. Nunc cursus elit sed urna efficitur, vitae ultrices libero lobortis. Etiam condimentum, diam vel hendrerit tincidunt, sem enim vestibulum erat, in lobortis mi nisl eu magna. Nam lobortis purus augue, a convallis lorem finibus non. Ut felis ex, elementum id porttitor in, laoreet laoreet ligula. Sed condimentum commodo sem et ornare. Integer ut porta quam. Fusce elementum, nisi ac viverra aliquet, ligula lectus fermentum tortor, id facilisis velit diam a eros. \nInteger efficitur tristique porta. Nam placerat justo purus, non lacinia sem gravida eget. Fusce ipsum turpis, tincidunt vel tortor vitae, gravida varius sapien. Aenean quis dolor efficitur, iaculis nisi quis, accumsan lacus. Pellentesque vestibulum tortor eget lacus egestas imperdiet. Etiam quis finibus purus, nec tempus magna. Nunc et faucibus lacus. Nunc nec est non orci feugiat pellentesque sit amet sed dui. Phasellus ex nulla, bibendum eu orci ut, congue imperdiet turpis.\nProin sed tortor vel orci finibus vehicula sit amet et odio. Donec commodo ante quis purus porttitor venenatis. Aliquam porta libero ac magna molestie facilisis. Donec placerat suscipit est, id malesuada lacus imperdiet a. Donec ac scelerisque purus. Vestibulum tempus ultricies varius. Maecenas felis mi, sodales sed ultrices id, imperdiet eget nisi. Suspendisse a turpis auctor, efficitur quam vel, maximus est. Nullam quis elit mollis, sollicitudin metus sit amet, suscipit turpis."
+    },
+    {
+      "id_news": 2,
+      "title": "Title test",
+      "dateTime": "11/12/2024",
+      "image": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros lectus, euismod ut mattis laoreet, ullamcorper nec mauris. Nam efficitur leo vel auctor ullamcorper. Aliquam viverra justo vitae vulputate molestie. Etiam hendrerit consectetur dui id fermentum. Proin consequat lorem est, vitae dictum arcu cursus at. Nunc cursus elit sed urna efficitur, vitae ultrices libero lobortis. Etiam condimentum, diam vel hendrerit tincidunt, sem enim vestibulum erat, in lobortis mi nisl eu magna. Nam lobortis purus augue, a convallis lorem finibus non. Ut felis ex, elementum id porttitor in, laoreet laoreet ligula. Sed condimentum commodo sem et ornare. Integer ut porta quam. Fusce elementum, nisi ac viverra aliquet, ligula lectus fermentum tortor, id facilisis velit diam a eros. \nInteger efficitur tristique porta. Nam placerat justo purus, non lacinia sem gravida eget. Fusce ipsum turpis, tincidunt vel tortor vitae, gravida varius sapien. Aenean quis dolor efficitur, iaculis nisi quis, accumsan lacus. Pellentesque vestibulum tortor eget lacus egestas imperdiet. Etiam quis finibus purus, nec tempus magna. Nunc et faucibus lacus. Nunc nec est non orci feugiat pellentesque sit amet sed dui. Phasellus ex nulla, bibendum eu orci ut, congue imperdiet turpis.\nProin sed tortor vel orci finibus vehicula sit amet et odio. Donec commodo ante quis purus porttitor venenatis. Aliquam porta libero ac magna molestie facilisis. Donec placerat suscipit est, id malesuada lacus imperdiet a. Donec ac scelerisque purus. Vestibulum tempus ultricies varius. Maecenas felis mi, sodales sed ultrices id, imperdiet eget nisi. Suspendisse a turpis auctor, efficitur quam vel, maximus est. Nullam quis elit mollis, sollicitudin metus sit amet, suscipit turpis."
+    },
+    {
+      "id_news": 3,
+      "title": "Title test",
+      "dateTime": "11/12/2024",
+      "image": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros lectus, euismod ut mattis laoreet, ullamcorper nec mauris. Nam efficitur leo vel auctor ullamcorper. Aliquam viverra justo vitae vulputate molestie. Etiam hendrerit consectetur dui id fermentum. Proin consequat lorem est, vitae dictum arcu cursus at. Nunc cursus elit sed urna efficitur, vitae ultrices libero lobortis. Etiam condimentum, diam vel hendrerit tincidunt, sem enim vestibulum erat, in lobortis mi nisl eu magna. Nam lobortis purus augue, a convallis lorem finibus non. Ut felis ex, elementum id porttitor in, laoreet laoreet ligula. Sed condimentum commodo sem et ornare. Integer ut porta quam. Fusce elementum, nisi ac viverra aliquet, ligula lectus fermentum tortor, id facilisis velit diam a eros. \nInteger efficitur tristique porta. Nam placerat justo purus, non lacinia sem gravida eget. Fusce ipsum turpis, tincidunt vel tortor vitae, gravida varius sapien. Aenean quis dolor efficitur, iaculis nisi quis, accumsan lacus. Pellentesque vestibulum tortor eget lacus egestas imperdiet. Etiam quis finibus purus, nec tempus magna. Nunc et faucibus lacus. Nunc nec est non orci feugiat pellentesque sit amet sed dui. Phasellus ex nulla, bibendum eu orci ut, congue imperdiet turpis.\nProin sed tortor vel orci finibus vehicula sit amet et odio. Donec commodo ante quis purus porttitor venenatis. Aliquam porta libero ac magna molestie facilisis. Donec placerat suscipit est, id malesuada lacus imperdiet a. Donec ac scelerisque purus. Vestibulum tempus ultricies varius. Maecenas felis mi, sodales sed ultrices id, imperdiet eget nisi. Suspendisse a turpis auctor, efficitur quam vel, maximus est. Nullam quis elit mollis, sollicitudin metus sit amet, suscipit turpis."
+    },
+    {
+      "id_news": 4,
+      "title": "Title test",
+      "dateTime": "11/12/2024",
+      "image": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros lectus, euismod ut mattis laoreet, ullamcorper nec mauris. Nam efficitur leo vel auctor ullamcorper. Aliquam viverra justo vitae vulputate molestie. Etiam hendrerit consectetur dui id fermentum. Proin consequat lorem est, vitae dictum arcu cursus at. Nunc cursus elit sed urna efficitur, vitae ultrices libero lobortis. Etiam condimentum, diam vel hendrerit tincidunt, sem enim vestibulum erat, in lobortis mi nisl eu magna. Nam lobortis purus augue, a convallis lorem finibus non. Ut felis ex, elementum id porttitor in, laoreet laoreet ligula. Sed condimentum commodo sem et ornare. Integer ut porta quam. Fusce elementum, nisi ac viverra aliquet, ligula lectus fermentum tortor, id facilisis velit diam a eros. \nInteger efficitur tristique porta. Nam placerat justo purus, non lacinia sem gravida eget. Fusce ipsum turpis, tincidunt vel tortor vitae, gravida varius sapien. Aenean quis dolor efficitur, iaculis nisi quis, accumsan lacus. Pellentesque vestibulum tortor eget lacus egestas imperdiet. Etiam quis finibus purus, nec tempus magna. Nunc et faucibus lacus. Nunc nec est non orci feugiat pellentesque sit amet sed dui. Phasellus ex nulla, bibendum eu orci ut, congue imperdiet turpis.\nProin sed tortor vel orci finibus vehicula sit amet et odio. Donec commodo ante quis purus porttitor venenatis. Aliquam porta libero ac magna molestie facilisis. Donec placerat suscipit est, id malesuada lacus imperdiet a. Donec ac scelerisque purus. Vestibulum tempus ultricies varius. Maecenas felis mi, sodales sed ultrices id, imperdiet eget nisi. Suspendisse a turpis auctor, efficitur quam vel, maximus est. Nullam quis elit mollis, sollicitudin metus sit amet, suscipit turpis."
+    },
+    {
+      "id_news": 5,
+      "title": "Title test",
+      "dateTime": "11/12/2024",
+      "image": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros lectus, euismod ut mattis laoreet, ullamcorper nec mauris. Nam efficitur leo vel auctor ullamcorper. Aliquam viverra justo vitae vulputate molestie. Etiam hendrerit consectetur dui id fermentum. Proin consequat lorem est, vitae dictum arcu cursus at. Nunc cursus elit sed urna efficitur, vitae ultrices libero lobortis. Etiam condimentum, diam vel hendrerit tincidunt, sem enim vestibulum erat, in lobortis mi nisl eu magna. Nam lobortis purus augue, a convallis lorem finibus non. Ut felis ex, elementum id porttitor in, laoreet laoreet ligula. Sed condimentum commodo sem et ornare. Integer ut porta quam. Fusce elementum, nisi ac viverra aliquet, ligula lectus fermentum tortor, id facilisis velit diam a eros. \nInteger efficitur tristique porta. Nam placerat justo purus, non lacinia sem gravida eget. Fusce ipsum turpis, tincidunt vel tortor vitae, gravida varius sapien. Aenean quis dolor efficitur, iaculis nisi quis, accumsan lacus. Pellentesque vestibulum tortor eget lacus egestas imperdiet. Etiam quis finibus purus, nec tempus magna. Nunc et faucibus lacus. Nunc nec est non orci feugiat pellentesque sit amet sed dui. Phasellus ex nulla, bibendum eu orci ut, congue imperdiet turpis.\nProin sed tortor vel orci finibus vehicula sit amet et odio. Donec commodo ante quis purus porttitor venenatis. Aliquam porta libero ac magna molestie facilisis. Donec placerat suscipit est, id malesuada lacus imperdiet a. Donec ac scelerisque purus. Vestibulum tempus ultricies varius. Maecenas felis mi, sodales sed ultrices id, imperdiet eget nisi. Suspendisse a turpis auctor, efficitur quam vel, maximus est. Nullam quis elit mollis, sollicitudin metus sit amet, suscipit turpis."
+    },
+    {
+      "id_news": 6,
+      "title": "Title test",
+      "dateTime": "11/12/2024",
+      "image": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros lectus, euismod ut mattis laoreet, ullamcorper nec mauris. Nam efficitur leo vel auctor ullamcorper. Aliquam viverra justo vitae vulputate molestie. Etiam hendrerit consectetur dui id fermentum. Proin consequat lorem est, vitae dictum arcu cursus at. Nunc cursus elit sed urna efficitur, vitae ultrices libero lobortis. Etiam condimentum, diam vel hendrerit tincidunt, sem enim vestibulum erat, in lobortis mi nisl eu magna. Nam lobortis purus augue, a convallis lorem finibus non. Ut felis ex, elementum id porttitor in, laoreet laoreet ligula. Sed condimentum commodo sem et ornare. Integer ut porta quam. Fusce elementum, nisi ac viverra aliquet, ligula lectus fermentum tortor, id facilisis velit diam a eros. \nInteger efficitur tristique porta. Nam placerat justo purus, non lacinia sem gravida eget. Fusce ipsum turpis, tincidunt vel tortor vitae, gravida varius sapien. Aenean quis dolor efficitur, iaculis nisi quis, accumsan lacus. Pellentesque vestibulum tortor eget lacus egestas imperdiet. Etiam quis finibus purus, nec tempus magna. Nunc et faucibus lacus. Nunc nec est non orci feugiat pellentesque sit amet sed dui. Phasellus ex nulla, bibendum eu orci ut, congue imperdiet turpis.\nProin sed tortor vel orci finibus vehicula sit amet et odio. Donec commodo ante quis purus porttitor venenatis. Aliquam porta libero ac magna molestie facilisis. Donec placerat suscipit est, id malesuada lacus imperdiet a. Donec ac scelerisque purus. Vestibulum tempus ultricies varius. Maecenas felis mi, sodales sed ultrices id, imperdiet eget nisi. Suspendisse a turpis auctor, efficitur quam vel, maximus est. Nullam quis elit mollis, sollicitudin metus sit amet, suscipit turpis."
+    },
+    {
+      "id_news": 7,
+      "title": "Title test",
+      "dateTime": "11/12/2024",
+      "image": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros lectus, euismod ut mattis laoreet, ullamcorper nec mauris. Nam efficitur leo vel auctor ullamcorper. Aliquam viverra justo vitae vulputate molestie. Etiam hendrerit consectetur dui id fermentum. Proin consequat lorem est, vitae dictum arcu cursus at. Nunc cursus elit sed urna efficitur, vitae ultrices libero lobortis. Etiam condimentum, diam vel hendrerit tincidunt, sem enim vestibulum erat, in lobortis mi nisl eu magna. Nam lobortis purus augue, a convallis lorem finibus non. Ut felis ex, elementum id porttitor in, laoreet laoreet ligula. Sed condimentum commodo sem et ornare. Integer ut porta quam. Fusce elementum, nisi ac viverra aliquet, ligula lectus fermentum tortor, id facilisis velit diam a eros. \nInteger efficitur tristique porta. Nam placerat justo purus, non lacinia sem gravida eget. Fusce ipsum turpis, tincidunt vel tortor vitae, gravida varius sapien. Aenean quis dolor efficitur, iaculis nisi quis, accumsan lacus. Pellentesque vestibulum tortor eget lacus egestas imperdiet. Etiam quis finibus purus, nec tempus magna. Nunc et faucibus lacus. Nunc nec est non orci feugiat pellentesque sit amet sed dui. Phasellus ex nulla, bibendum eu orci ut, congue imperdiet turpis.\nProin sed tortor vel orci finibus vehicula sit amet et odio. Donec commodo ante quis purus porttitor venenatis. Aliquam porta libero ac magna molestie facilisis. Donec placerat suscipit est, id malesuada lacus imperdiet a. Donec ac scelerisque purus. Vestibulum tempus ultricies varius. Maecenas felis mi, sodales sed ultrices id, imperdiet eget nisi. Suspendisse a turpis auctor, efficitur quam vel, maximus est. Nullam quis elit mollis, sollicitudin metus sit amet, suscipit turpis."
+    },
+    {
+      "id_news": 8,
+      "title": "Title test",
+      "dateTime": "11/12/2024",
+      "image": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros lectus, euismod ut mattis laoreet, ullamcorper nec mauris. Nam efficitur leo vel auctor ullamcorper. Aliquam viverra justo vitae vulputate molestie. Etiam hendrerit consectetur dui id fermentum. Proin consequat lorem est, vitae dictum arcu cursus at. Nunc cursus elit sed urna efficitur, vitae ultrices libero lobortis. Etiam condimentum, diam vel hendrerit tincidunt, sem enim vestibulum erat, in lobortis mi nisl eu magna. Nam lobortis purus augue, a convallis lorem finibus non. Ut felis ex, elementum id porttitor in, laoreet laoreet ligula. Sed condimentum commodo sem et ornare. Integer ut porta quam. Fusce elementum, nisi ac viverra aliquet, ligula lectus fermentum tortor, id facilisis velit diam a eros. \nInteger efficitur tristique porta. Nam placerat justo purus, non lacinia sem gravida eget. Fusce ipsum turpis, tincidunt vel tortor vitae, gravida varius sapien. Aenean quis dolor efficitur, iaculis nisi quis, accumsan lacus. Pellentesque vestibulum tortor eget lacus egestas imperdiet. Etiam quis finibus purus, nec tempus magna. Nunc et faucibus lacus. Nunc nec est non orci feugiat pellentesque sit amet sed dui. Phasellus ex nulla, bibendum eu orci ut, congue imperdiet turpis.\nProin sed tortor vel orci finibus vehicula sit amet et odio. Donec commodo ante quis purus porttitor venenatis. Aliquam porta libero ac magna molestie facilisis. Donec placerat suscipit est, id malesuada lacus imperdiet a. Donec ac scelerisque purus. Vestibulum tempus ultricies varius. Maecenas felis mi, sodales sed ultrices id, imperdiet eget nisi. Suspendisse a turpis auctor, efficitur quam vel, maximus est. Nullam quis elit mollis, sollicitudin metus sit amet, suscipit turpis."
+    },
+    {
+      "id_news": 9,
+      "title": "Title test",
+      "dateTime": "11/12/2024",
+      "image": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eros lectus, euismod ut mattis laoreet, ullamcorper nec mauris. Nam efficitur leo vel auctor ullamcorper. Aliquam viverra justo vitae vulputate molestie. Etiam hendrerit consectetur dui id fermentum. Proin consequat lorem est, vitae dictum arcu cursus at. Nunc cursus elit sed urna efficitur, vitae ultrices libero lobortis. Etiam condimentum, diam vel hendrerit tincidunt, sem enim vestibulum erat, in lobortis mi nisl eu magna. Nam lobortis purus augue, a convallis lorem finibus non. Ut felis ex, elementum id porttitor in, laoreet laoreet ligula. Sed condimentum commodo sem et ornare. Integer ut porta quam. Fusce elementum, nisi ac viverra aliquet, ligula lectus fermentum tortor, id facilisis velit diam a eros. \nInteger efficitur tristique porta. Nam placerat justo purus, non lacinia sem gravida eget. Fusce ipsum turpis, tincidunt vel tortor vitae, gravida varius sapien. Aenean quis dolor efficitur, iaculis nisi quis, accumsan lacus. Pellentesque vestibulum tortor eget lacus egestas imperdiet. Etiam quis finibus purus, nec tempus magna. Nunc et faucibus lacus. Nunc nec est non orci feugiat pellentesque sit amet sed dui. Phasellus ex nulla, bibendum eu orci ut, congue imperdiet turpis.\nProin sed tortor vel orci finibus vehicula sit amet et odio. Donec commodo ante quis purus porttitor venenatis. Aliquam porta libero ac magna molestie facilisis. Donec placerat suscipit est, id malesuada lacus imperdiet a. Donec ac scelerisque purus. Vestibulum tempus ultricies varius. Maecenas felis mi, sodales sed ultrices id, imperdiet eget nisi. Suspendisse a turpis auctor, efficitur quam vel, maximus est. Nullam quis elit mollis, sollicitudin metus sit amet, suscipit turpis."
+    }
+  ],
+
+  "banner": [
+    {
+      "id_banner": 1,
+      "id_category": 1,
+      "name": "Name 1",
+      "link": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg"
+    },
+    {
+      "id_banner": 2,
+      "id_category": 1,
+      "name": "Name 2",
+      "link": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg"
+    },
+    {
+      "id_banner": 3,
+      "id_category": 2,
+      "name": "Name 3",
+      "link": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg"
+    },
+    {
+      "id_banner": 4,
+      "id_category": 2,
+      "name": "Name 4",
+      "link": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg"
+    },
+    {
+      "id_banner": 5,
+      "id_category": 3,
+      "name": "Name 5",
+      "link": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg"
+    },
+    {
+      "id_banner": 6,
+      "id_category": 3,
+      "name": "Name 6",
+      "link": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg"
+    }
+  ],
+
+  "types": [
+    {
+      "id_type": 1,
+      "name": "Leafy greens",
+      "id_category": 1
+    },
+    {
+      "id_type": 2,
+      "name": "Tuber",
+      "id_category": 1
+    },
+    {
+      "id_type": 3,
+      "name": "Japan strawberry",
+      "id_category": 2
+    },
+    {
+      "id_type": 4,
+      "name": "French strawberry",
+      "id_category": 2
+    },
+    {
+      "id_type": 5,
+      "name": "Vegetable Powder",
+      "id_category": 3
+    }
+  ],
+
+  "products": [
+    {
+      "id_product": 1,
+      "name": "Carrot",
+      "price": "20.000 VND",
+      "image": "https://product.hstatic.net/1000354044/product/ca-rot-baby_658880550f9b476ca111512337cd114f_master.jpg",
+      "description": "Fresh carrots rich in vitamin A.",
+      "id_type": 2,
+      "id_category": 1
+    },
+    {
+      "id_product": 2,
+      "name": "Potato",
+      "price": "20.000 VND",
+      "image": "https://cdn.pixabay.com/photo/2012/12/24/08/39/agriculture-72254_640.jpg",
+      "description": "Versatile potatoes suitable for many dishes.",
+      "id_type": 2,
+      "id_category": 1
+    },
+    {
+      "id_product": 3,
+      "name": "Onion",
+      "price": "20.000 VND",
+      "image": "https://www.veggycation.com.au/siteassets/veggycationvegetable/onion.jpg",
+      "description": "Aromatic onions perfect for stir-frying.",
+      "id_type": 2,
+      "id_category": 1
+    },
+    {
+      "id_product": 4,
+      "name": "Broccoli",
+      "price": "20.000 VND",
+      "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/broccoli-1238250_640.jpg",
+      "description": "Nutrient-rich broccoli, great for health.",
+      "id_type": 1,
+      "id_category": 1
+    },
+    {
+      "id_product": 5,
+      "name": "Tomato",
+      "price": "20.000 VND",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/1231px-Tomato_je.jpg",
+      "description": "Fresh tomatoes id_producteal for salads and sauces.",
+      "id_type": 1,
+      "id_category": 1
+    },
+    {
+      "id_product": 6,
+      "name": "Cucumber",
+      "price": "20.000 VND",
+      "image": "https://wh.farm/wp-content/uploads/2022/09/SlicerCucumber-Featured.jpg",
+      "description": "Crispy cucumbers, refreshing and perfect for salads.",
+      "id_type": 1,
+      "id_category": 1
+    },
+    {
+      "id_product": 7,
+      "name": "Bell Pepper",
+      "price": "20.000 VND",
+      "image": "https://cdn.britannica.com/12/147312-050-BEC6A59E/Bell-peppers.jpg",
+      "description": "Colorful bell peppers, sweet and great for stir-fry.",
+      "id_type": 1,
+      "id_category": 1
+    },
+    {
+      "id_product": 8,
+      "name": "Lettuce",
+      "price": "20.000 VND",
+      "image": "https://threestarorganic.com/wp-content/uploads/2022/09/21-1.jpg",
+      "description": "Fresh lettuce, crispy and perfect for salads.",
+      "id_type": 1,
+      "id_category": 1
+    },
+    {
+      "id_product": 9,
+      "name": "Cilantro",
+      "price": "20.000 VND",
+      "image": "https://t4.ftcdn.net/jpg/03/12/24/69/360_F_312246907_untVz8mOuHOKxLjX7nzmWrvnaObKsrsc.jpg",
+      "description": "Fragrant cilantro, great for soups and stir-fry.",
+      "id_type": 1,
+      "id_category": 1
+    },
+    {
+      "id_product": 10,
+      "name": "Dill",
+      "price": "20.000 VND",
+      "image": "https://t4.ftcdn.net/jpg/00/32/74/01/360_F_32740175_klgcSW9FGAfOE1aNZVLlgNQO4je63Wdd.jpg",
+      "description": "Aromatic dill, used as a seasoning in many dishes.",
+      "id_type": 1,
+      "id_category": 1
+    },
+    {
+      "id_product": 11,
+      "name": "Spinach",
+      "price": "20.000 VND",
+      "image": "https://lettuceinfo.org/wp-content/uploads/2020/09/Spinach.jpg",
+      "description": "Fresh spinach, rich in iron and vitamins.",
+      "id_type": 1,
+      "id_category": 1
+    },
+    {
+      "id_product": 12,
+      "name": "Eggplant",
+      "price": "20.000 VND",
+      "image": "https://i.pinimg.com/originals/eb/a3/58/eba358ee68d27dc46dce9b2e0df419d4.jpg",
+      "description": "Versatile eggplant, great for grilling and baking.",
+      "id_type": 1,
+      "id_category": 1
+    },
+    {
+      "id_product": 13,
+      "name": "Zucchini",
+      "price": "20.000 VND",
+      "image": "https://static8.depositphotos.com/1000141/903/i/950/depositphotos_9035778-stock-photo-zucchini.jpg",
+      "description": "Tender zucchini, perfect for stir-frying.",
+      "id_type": 1,
+      "id_category": 1
+    },
+    {
+      "id_product": 14,
+      "name": "Beetroot",
+      "price": "20.000 VND",
+      "image": "https://www.veggycation.com.au/siteassets/veggycationvegetable/beetroot.jpg",
+      "description": "Nutritious beetroot, excellent for salads.",
+      "id_type": 2,
+      "id_category": 1
+    },
+    {
+      "id_product": 15,
+      "name": "Radish",
+      "price": "20.000 VND",
+      "image": "https://img.freepik.com/premium-photo/fresh-white-radish-isolated-white-surface_29402-1373.jpg",
+      "description": "Crispy radishes, great for salads and garnishes.",
+      "id_type": 1,
+      "id_category": 1
+    },
+    {
+      "id_product": 16,
+      "name": "Garlic",
+      "price": "20.000 VND",
+      "image": "https://t3.ftcdn.net/jpg/01/67/65/42/360_F_167654274_ltpzSBPLQpQEUGUdbZl5XazwVDLixovY.jpg",
+      "description": "Flavorful garlic, essential for many dishes.",
+      "id_type": 2,
+      "id_category": 1
+    },
+    {
+      "id_product": 17,
+      "name": "Sweet Potato",
+      "price": "20.000 VND",
+      "image": "https://t3.ftcdn.net/jpg/02/95/67/48/360_F_295674852_DGl8KenKjNp15lI7WVEHIRhD5PVqYaGb.jpg",
+      "description": "Sweet potatoes, rich in nutrients and flavor.",
+      "id_type": 2,
+      "id_category": 1
+    },
+    {
+      "id_product": 18,
+      "name": "Pumpkin",
+      "price": "20.000 VND",
+      "image": "https://static6.depositphotos.com/1167801/657/i/950/depositphotos_6578598-stock-photo-pumpkin.jpg",
+      "description": "Versatile pumpkin, great for soups and pies.",
+      "id_type": 2,
+      "id_category": 1
+    },
+    {
+      "id_product": 19,
+      "name": "Chili Pepper",
+      "price": "20.000 VND",
+      "image": "https://img.freepik.com/premium-vector/red-hot-chili-pepper-realistic-image_98292-2560.jpg",
+      "description": "Spicy chili peppers to add heat to dishes.",
+      "id_type": 1,
+      "id_category": 1
+    },
+    {
+      "id_product": 20,
+      "name": "Asparagus",
+      "price": "20.000 VND",
+      "image": "https://thumbs.dreamstime.com/b/fresh-asparagus-isolated-white-background-321149824.jpg",
+      "description": "Tender asparagus, excellent for roasting.",
+      "id_type": 1,
+      "id_category": 1
+    },
+    {
+      "id_product": 21,
+      "name": "Leek",
+      "price": "20.000 VND",
+      "image": "https://static8.depositphotos.com/1029099/805/i/450/depositphotos_8054740-stock-photo-a-bunch-of-leeks-isolated.jpg",
+      "description": "Mild leeks, great for soups and stews.",
+      "id_type": 1,
+      "id_category": 1
+    },
+    {
+      "id_product": 22,
+      "name": "Japan Strawberry 48 fruits",
+      "price": "30.000 VND",
+      "image": "https://www.grandiose.ae/media/catalog/product/cache/1bae71a385b5415595d9e4534e07fc3f/9/9/9940000002488.jpg",
+      "description": "Sweet and juicy strawberries, perfect for desserts.",
+      "id_type": 3,
+      "id_category": 2
+    },
+    {
+      "id_product": 23,
+      "name": "Japan Strawberry 64 fruits",
+      "price": "40.000 VND",
+      "image": "https://st.depositphotos.com/1034300/1353/i/950/depositphotos_13532977-stock-photo-strawberry-fruit-food.jpg",
+      "description": "Sweet and juicy strawberries, perfect for desserts.",
+      "id_type": 3,
+      "id_category": 2
+    },
+    {
+      "id_product": 24,
+      "name": "French Strawberry 48 fruits",
+      "price": "50.000 VND",
+      "image": "https://www.shutterstock.com/image-photo/heap-fresh-ripe-red-dutch-260nw-2465658773.jpg",
+      "description": "Sweet and juicy strawberries, perfect for desserts.",
+      "id_type": 3,
+      "id_category": 2
+    },
+    {
+      "id_product": 25,
+      "name": "French Strawberry 64 fruits",
+      "price": "60.000 VND",
+      "image": "https://www.shutterstock.com/image-photo/strawberry-japan-farmers-make-farm-260nw-2450878617.jpg",
+      "description": "Sweet and juicy strawberries, perfect for desserts.",
+      "id_type": 3,
+      "id_category": 2
+    },
+    {
+      "id_product": 26,
+      "name": "Powder 1",
+      "price": "60.000 VND",
+      "image": "https://www.shutterstock.com/image-photo/dry-spinach-powder-on-white-260nw-1892488510.jpg",
+      "description": "Sweet and juicy strawberries, perfect for desserts.",
+      "id_type": 3,
+      "id_category": 3
+    },
+    {
+      "id_product": 27,
+      "name": "Powder 2",
+      "price": "70.000 VND",
+      "image": "https://5.imimg.com/data5/QD/BM/MY-19139309/spray-dried-carrot-powder-250x250.jpg",
+      "description": "Sweet and juicy strawberries, perfect for desserts.",
+      "id_type": 3,
+      "id_category": 3
+    }
+  ]
+}

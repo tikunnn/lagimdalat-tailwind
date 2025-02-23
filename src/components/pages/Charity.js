@@ -5,7 +5,7 @@ import pic3 from '../../assets/images/charity-3.jpg'
 
 const Charity = () => {
   return (
-    <div className="m-4 md:mx-32 md:mt-12">
+    <div className="m-4 md:mx-32 md:mt-12 text-justify">
       <div>
         <h1 className="text-2xl font-bold">Charity Activities</h1>
         <p className="mt-1">

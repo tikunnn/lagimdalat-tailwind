@@ -6,7 +6,7 @@ import pic4 from "../../assets/images/aboutus-4.jpg";
 
 const About = () => {
   return (
-    <div className="md:mx-32 m-4">
+    <div className="md:mx-32 m-4 text-justify">
       <div className=" flex flex-col mt-12 md:flex-row">
         <div className="flex-col md:w-3/4 md:mr-32 md:flex-row ">
           <h1 className="text-4xl font-bold">Welcome to Van Do Company!</h1>
