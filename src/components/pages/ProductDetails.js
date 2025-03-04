@@ -3,16 +3,21 @@ import { Link, useParams } from "react-router-dom";
 
 import BackButton from "../BackButton";
 
-
-const ProductDetails = ({products, onClose }) => {
+const ProductDetails = ({ products, onClose }) => {
   const [visibleCount, setVisibleCount] = useState(4);
   const { productId } = useParams();
-  const product = products.find((p) => p.id_product === parseInt(productId, 10));
+  const product = products.find(
+    (p) => p.id_product === parseInt(productId, 10)
+  );
 
-  if (!products) {
+  const otherProducts = products.filter(
+    (n) => n.id_product !== parseInt(productId, 10)
+  );
+
+  if (!product) {
     return <h1>Không có sản phẩm nào</h1>;
   }
-  
+
   const handleLoadMore = () => {
     setVisibleCount((prev) => Math.min(prev + 4, products.length));
   };
@@ -26,7 +31,7 @@ const ProductDetails = ({products, onClose }) => {
           <img
             src={product.image}
             alt={product.name}
-            className="shadow-fm w-[400px] h-72 object-contain"
+            className="shadow-fm w-[400px] h-72 object-cover"
           />
         </div>
         <div className="mt-4 md:mt-0 md:ml-8 ml-2 col-start-2 col-end-4">
@@ -36,9 +41,7 @@ const ProductDetails = ({products, onClose }) => {
           </div>
           <div>
             <h1 className="text-lg font-medium mt-8">Storage instructions</h1>
-            <span className="italic text-base">
-              {product.description}
-            </span>
+            <span className="italic text-base">{product.description}</span>
           </div>
 
           <a href="https://zalo.me/pc">
@@ -50,11 +53,11 @@ const ProductDetails = ({products, onClose }) => {
       </div>
 
       <div>
-        <h1 className="text-xl font-bold mt-12">Other products</h1>
+        <h1 className="text-xl font-bold mt-12 p-2">Other products</h1>
       </div>
 
-      <div className="mt-8 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 text-black font-bold">
-        {products.slice(0, visibleCount).map((otherProduct) => (
+      <div className="mt-8 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 p-2 text-black font-bold">
+        {otherProducts.slice(0, visibleCount).map((otherProduct) => (
           <div
             key={otherProduct.id_product}
             className="flex-col cursor-pointer hover:scale-105 duration-300"
@@ -77,8 +80,8 @@ const ProductDetails = ({products, onClose }) => {
           </div>
         ))}
       </div>
-      {visibleCount < products.length && (
-        <div className="mt-4 float-end">
+      {visibleCount < otherProducts.length && (
+        <div className="mt-4 float-end p-2">
           <button
             onClick={handleLoadMore}
             className="text-black font-thin italic text-base "

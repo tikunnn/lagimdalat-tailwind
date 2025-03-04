@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 import Slider from "../Slider";
 
-
 import image1 from "../../assets/images/IMG_5707.jpg";
 import image2 from "../../assets/images/IMG_5718.jpg";
 
@@ -15,25 +14,26 @@ import ProductDetails from "./ProductDetails";
 
 const imagesProductPage = [image1, image2];
 
-
 const StrawberryProducts = () => {
   const [products, setProducts] = useState([]);
   const [visibleCount, setVisibleCount] = useState(12);
   const [selectedProductId, setSelectedProductId] = useState(null);
 
   useEffect(() => {
-    fetch('/products.json')
-    .then((response) => {
+    fetch("/products.json")
+      .then((response) => {
         if (!response.ok) {
-            throw new Error ("Network response was not ok")
+          throw new Error("Network response was not ok");
         }
         return response.json();
-    })
-    .then((data) => {
-        const strawberryProducts = data.products.filter((product) => product.id_category === 2);
+      })
+      .then((data) => {
+        const strawberryProducts = data.products.filter(
+          (product) => product.id_category === 2
+        );
         setProducts(strawberryProducts);
-    })
-    .catch((error) => console.error("Error fetching products: ", error));
+      })
+      .catch((error) => console.error("Error fetching products: ", error));
   }, []);
 
   const handleLoadMore = () => {
@@ -46,16 +46,19 @@ const StrawberryProducts = () => {
 
   if (selectedProductId) {
     return (
-        <ProductDetails
+      <ProductDetails
         products={products}
         selectedProductId={selectedProductId}
-        onClose={() => setSelectedProductId(null)} />
+        onClose={() => setSelectedProductId(null)}
+      />
     );
   }
 
   return (
     <div>
-      <Slider images={imagesProductPage} />
+      <div>
+        <Slider images={imagesProductPage} />
+      </div>
       <div className="mt-8 bg-white">
         <SearchAndType />
 
@@ -64,7 +67,6 @@ const StrawberryProducts = () => {
             <div
               key={product.id_product}
               className="flex-col cursor-pointer hover:scale-105 duration-300"
-              
               onClick={() => handleProductClick(product.id_product)}
             >
               <Link to={`/product-details/${product.id_product}`}>

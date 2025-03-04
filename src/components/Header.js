@@ -140,6 +140,11 @@ function Header() {
       }
     });
   };
+
+  const handleMunuItemClick = () => {
+    setIsToggled(false);
+  };
+
   return (
     <div>
       <nav className="sticky top-0 z-20 flex bg-primary-color justify-between">
@@ -164,6 +169,7 @@ function Header() {
             <Link
               to="/"
               className="relative flex h-full cursor-pointer items-center justify-center p-4 font-bold hover:text-zinc-200 transition-colors hover:bg-white/10"
+              onClick={handleMunuItemClick}
             >
               <div>Home</div>
             </Link>
@@ -176,18 +182,21 @@ function Header() {
                 <Link
                   to="/vegetable-products"
                   className="relative block p-4 font-thin hover:text-zinc-200"
+                  onClick={handleMunuItemClick}
                 >
                   <div>Vegetable</div>
                 </Link>
                 <Link
                   to="/strawberry-products"
                   className="relative block p-4 font-thin hover:text-zinc-200"
+                  onClick={handleMunuItemClick}
                 >
                   <div>Strawberry</div>
                 </Link>
                 <Link
                   to="/cold-dried-powder-products"
                   className="relative block p-4 font-thin hover:text-zinc-200"
+                  onClick={handleMunuItemClick}
                 >
                   <div>Cold dried powder</div>
                 </Link>
@@ -196,6 +205,7 @@ function Header() {
             <Link
               to="/about"
               className="relative flex h-full cursor-pointer items-center justify-center p-4 font-bold hover:text-zinc-200 transition-colors hover:bg-white/10"
+              onClick={handleMunuItemClick}
             >
               <div>About us</div>
             </Link>
@@ -203,22 +213,31 @@ function Header() {
         </div>
 
         <div className="md:flex hidden flex-1 items-center justify-center">
-          <Link to="/" className="menu-item mr-8">
+          <Link to="/" className="menu-item mr-8" onClick={handleMunuItemClick}>
             <div>Home</div>
           </Link>
 
           <div className="menu-item mr-8 group">
             <div>Product</div>
             <div className="group-hover:block absolute top-full hidden whitespace-nowrap rounded-md bg-secondary-color shadow md:shadow-fm">
-              <Link to="/vegetable-products" className="sub-item block p-2">
+              <Link
+                to="/vegetable-products"
+                className="sub-item block p-2"
+                onClick={handleMunuItemClick}
+              >
                 <div>Vegetable</div>
               </Link>
-              <Link to="/strawberry-products" className="sub-item block p-2">
+              <Link
+                to="/strawberry-products"
+                className="sub-item block p-2"
+                onClick={handleMunuItemClick}
+              >
                 <div>Strawberry</div>
               </Link>
               <Link
                 to="/cold-dried-powder-products"
                 className="sub-item block p-2"
+                onClick={handleMunuItemClick}
               >
                 <div>Cold dried powder</div>
               </Link>

@@ -84,7 +84,7 @@
 //   return (
 //     <>
 //       {!isAdminPath && <Header />}
-      
+
 //       <Routes>
 //         <Route path="/" element={<Home />} />
 //         <Route path="/about" element={<About />} />
@@ -110,8 +110,6 @@
 // }
 
 // export default App;
-
-
 
 import {
   BrowserRouter as Router,
@@ -139,7 +137,6 @@ import StrawberryProducts from "./components/pages/StrawberryProducts";
 import { useEffect, useState } from "react";
 import ColdDriedPowder from "./components/pages/ColdDriedPowder";
 
-
 const App = () => {
   return (
     <div>
@@ -150,9 +147,10 @@ const App = () => {
 
 const RouteHandler = () => {
   const location = useLocation();
-  const isAdminPath = location.pathname.startsWith('/admin'); 
+  const isAdminPath = location.pathname.startsWith("/admin");
 
   const [products, setProducts] = useState([]);
+  const [news, setNews] = useState([]);
 
   useEffect(() => {
     fetch("/products.json")
@@ -161,30 +159,81 @@ const RouteHandler = () => {
       .catch((error) => console.error("Error fetching products: ", error));
   }, []);
 
+  useEffect(() => {
+    fetch("/products.json")
+      .then((response) => response.json())
+      .then((data) => setNews(data.news))
+      .catch((error) => console.error("Error fetching news: ", error));
+  }, []);
+
   return (
     <>
       {!isAdminPath && <Header />}
       {/* {isAdminPath && <AdminPage/>} */}
-      
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/charity" element={<Charity />} />
         <Route path="/vegetable-products" element={<VegetableProducts />} />
         <Route path="/strawberry-products" element={<StrawberryProducts />} />
-        <Route path="/cold-dried-powder-products" element={<ColdDriedPowder />} />
+        <Route
+          path="/cold-dried-powder-products"
+          element={<ColdDriedPowder />}
+        />
 
-        <Route path="/product-details/:productId" element={<ProductDetails products={products} />} />
-        <Route path="/news-details" element={<NewsDetails />} />
+        <Route
+          path="/product-details/:productId"
+          element={<ProductDetails products={products} />}
+        />
+        <Route
+          path="/news-details/:id_news"
+          element={<NewsDetails news={news} />}
+        />
         <Route path="/buying-guide" element={<BuyingGuide />} />
-        
+
         {/* ----------------------------------------------------- */}
-        <Route path="/admin" element={<AdminPage/>} />
-        <Route path="/admin/banner-management" element={<AdminPage><BannerManagement/></AdminPage>} />
-        <Route path="/admin/post-management" element={<AdminPage><PostManagement/></AdminPage>} />
-        <Route path="/admin/product-management" element={<AdminPage><ProductManagement /></AdminPage>} />
-        <Route path="/admin/user-management" element={<AdminPage><UserManagement/></AdminPage>} />
-        <Route path="/admin/settings" element={<AdminPage><Settings/></AdminPage>} />
+        <Route path="/admin" element={<AdminPage />} />
+        <Route
+          path="/admin/banner-management"
+          element={
+            <AdminPage>
+              <BannerManagement />
+            </AdminPage>
+          }
+        />
+        <Route
+          path="/admin/post-management"
+          element={
+            <AdminPage>
+              <PostManagement />
+            </AdminPage>
+          }
+        />
+        <Route
+          path="/admin/product-management"
+          element={
+            <AdminPage>
+              <ProductManagement />
+            </AdminPage>
+          }
+        />
+        <Route
+          path="/admin/user-management"
+          element={
+            <AdminPage>
+              <UserManagement />
+            </AdminPage>
+          }
+        />
+        <Route
+          path="/admin/settings"
+          element={
+            <AdminPage>
+              <Settings />
+            </AdminPage>
+          }
+        />
       </Routes>
 
       {!isAdminPath && <Footer />}

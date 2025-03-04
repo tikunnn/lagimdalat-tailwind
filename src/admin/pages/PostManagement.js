@@ -5,7 +5,6 @@ const PostManagement = () => {
 
   const deleteButton = (id_post) => {
     setSelectedPostId(id_post);
-    console.log(id_post);
     // alert("Do you want to delete this post");
   };
 
